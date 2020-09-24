@@ -8,6 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({ origin: "http://localhost:3000" }));
 
+//Server
 const PORT = 4000;
 app.listen(PORT, () => console.log(`Server started at ${PORT}`));
 
